@@ -1,0 +1,507 @@
+{
+  "Faridabad::New Industrial": [
+    {
+      "aqi": 30.0,
+      "pm25": 30.0,
+      "pm10": 18.0,
+      "no2": 8.9,
+      "so2": 3.6,
+      "co": 3.0,
+      "o3": 25.6,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:34:33.571335"
+    },
+    {
+      "aqi": 30.0,
+      "pm25": 30.0,
+      "pm10": 18.0,
+      "no2": 8.9,
+      "so2": 3.6,
+      "co": 3.0,
+      "o3": 25.6,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:34:29.083845"
+    },
+    {
+      "aqi": 30.0,
+      "pm25": 30.0,
+      "pm10": 18.0,
+      "no2": 8.9,
+      "so2": 3.6,
+      "co": 3.0,
+      "o3": 25.6,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:34:21.393615"
+    }
+  ],
+  "Delhi::Anand Vihar": [
+    {
+      "aqi": 99.0,
+      "pm25": 99.0,
+      "pm10": 48.0,
+      "no2": 35.3,
+      "so2": 2.9,
+      "co": 7.6,
+      "o3": NaN,
+      "temperature": 8.9,
+      "humidity": 77.6,
+      "wind_speed": 0.5,
+      "timestamp": "2026-02-23T00:37:04.018153"
+    },
+    {
+      "aqi": 99.0,
+      "pm25": 99.0,
+      "pm10": 48.0,
+      "no2": 35.3,
+      "so2": 2.9,
+      "co": 7.6,
+      "o3": NaN,
+      "temperature": 8.9,
+      "humidity": 77.6,
+      "wind_speed": 0.5,
+      "timestamp": "2026-02-23T00:36:39.643636"
+    },
+    {
+      "aqi": 99.0,
+      "pm25": 99.0,
+      "pm10": 48.0,
+      "no2": 35.3,
+      "so2": 2.9,
+      "co": 7.6,
+      "o3": NaN,
+      "temperature": 8.9,
+      "humidity": 77.6,
+      "wind_speed": 0.5,
+      "timestamp": "2026-02-23T00:36:33.216735"
+    },
+    {
+      "aqi": 99.0,
+      "pm25": 99.0,
+      "pm10": 48.0,
+      "no2": 35.3,
+      "so2": 2.9,
+      "co": 7.6,
+      "o3": NaN,
+      "temperature": 8.9,
+      "humidity": 77.6,
+      "wind_speed": 0.5,
+      "timestamp": "2026-02-23T00:36:28.599457"
+    },
+    {
+      "aqi": 99.0,
+      "pm25": 99.0,
+      "pm10": 48.0,
+      "no2": 35.3,
+      "so2": 2.9,
+      "co": 7.6,
+      "o3": NaN,
+      "temperature": 8.9,
+      "humidity": 77.6,
+      "wind_speed": 0.5,
+      "timestamp": "2026-02-23T00:36:25.559976"
+    },
+    {
+      "aqi": 99.0,
+      "pm25": 99.0,
+      "pm10": 48.0,
+      "no2": 35.3,
+      "so2": 2.9,
+      "co": 7.6,
+      "o3": NaN,
+      "temperature": 8.9,
+      "humidity": 77.6,
+      "wind_speed": 0.5,
+      "timestamp": "2026-02-23T00:36:16.806216"
+    }
+  ],
+  "Anand Vihar, Delhi": [
+    {
+      "aqi": 118.0,
+      "pm25": 117.0,
+      "pm10": 118.0,
+      "no2": 18.3,
+      "so2": 9.4,
+      "co": 12.9,
+      "o3": 8.5,
+      "temperature": 21.1,
+      "humidity": 40.9,
+      "wind_speed": 0.8,
+      "timestamp": "2026-02-23T17:18:41.488378"
+    },
+    {
+      "aqi": 144.0,
+      "pm25": 144.0,
+      "pm10": 104.0,
+      "no2": 15.3,
+      "so2": 10.1,
+      "co": 14.3,
+      "o3": 6.1,
+      "temperature": 22.2,
+      "humidity": 39.525,
+      "wind_speed": 0.875,
+      "timestamp": "2026-02-23T16:13:32.723971"
+    },
+    {
+      "aqi": 482.0,
+      "pm25": 214.0,
+      "pm10": 482.0,
+      "no2": 13.2,
+      "so2": 7.5,
+      "co": 22.4,
+      "o3": 3.9,
+      "temperature": 21.15,
+      "humidity": 44.650000000000006,
+      "wind_speed": 0.9,
+      "timestamp": "2026-02-23T11:44:57.268606"
+    },
+    {
+      "aqi": 482.0,
+      "pm25": 214.0,
+      "pm10": 482.0,
+      "no2": 13.2,
+      "so2": 7.5,
+      "co": 22.4,
+      "o3": 3.9,
+      "temperature": 21.15,
+      "humidity": 44.650000000000006,
+      "wind_speed": 0.9,
+      "timestamp": "2026-02-23T11:36:42.702302"
+    },
+    {
+      "aqi": 501.0,
+      "pm25": 239.0,
+      "pm10": 501.0,
+      "no2": 18.6,
+      "so2": 5.9,
+      "co": 32.3,
+      "o3": 6.2,
+      "temperature": 19.3,
+      "humidity": 50.0,
+      "wind_speed": 0.8,
+      "timestamp": "2026-02-23T10:24:07.497472"
+    },
+    {
+      "aqi": 501.0,
+      "pm25": 239.0,
+      "pm10": 501.0,
+      "no2": 18.6,
+      "so2": 5.9,
+      "co": 32.3,
+      "o3": 6.2,
+      "temperature": 18.775,
+      "humidity": 57.75,
+      "wind_speed": 0.5,
+      "timestamp": "2026-02-23T10:15:07.740465"
+    }
+  ],
+  "Bawana, Delhi": [
+    {
+      "aqi": 278.0,
+      "pm25": 278.0,
+      "pm10": 209.0,
+      "no2": 11.0,
+      "so2": 1.5,
+      "co": 11.8,
+      "o3": 1.1,
+      "temperature": 12.75,
+      "humidity": 86.875,
+      "wind_speed": 0.3,
+      "timestamp": "2026-02-23T01:15:28.457735"
+    },
+    {
+      "aqi": 42.0,
+      "pm25": 42.0,
+      "pm10": 20.0,
+      "no2": 6.3,
+      "so2": 6.2,
+      "co": 3.2,
+      "o3": 22.2,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:55:38.358640"
+    },
+    {
+      "aqi": 42.0,
+      "pm25": 42.0,
+      "pm10": 20.0,
+      "no2": 6.3,
+      "so2": 6.2,
+      "co": 3.2,
+      "o3": 22.2,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:55:34.677469"
+    },
+    {
+      "aqi": 42.0,
+      "pm25": 42.0,
+      "pm10": 20.0,
+      "no2": 6.3,
+      "so2": 6.2,
+      "co": 3.2,
+      "o3": 22.2,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:55:32.272188"
+    },
+    {
+      "aqi": 42.0,
+      "pm25": 42.0,
+      "pm10": 20.0,
+      "no2": 6.3,
+      "so2": 6.2,
+      "co": 3.2,
+      "o3": 22.2,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:55:30.355467"
+    },
+    {
+      "aqi": 42.0,
+      "pm25": 42.0,
+      "pm10": 20.0,
+      "no2": 6.3,
+      "so2": 6.2,
+      "co": 3.2,
+      "o3": 22.2,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:55:27.789565"
+    }
+  ],
+  "Faridabad New Town": [
+    {
+      "aqi": 30.0,
+      "pm25": 30.0,
+      "pm10": 16.0,
+      "no2": 8.9,
+      "so2": 3.5,
+      "co": 3.0,
+      "o3": 25.6,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:58:06.185485"
+    },
+    {
+      "aqi": 30.0,
+      "pm25": 30.0,
+      "pm10": 16.0,
+      "no2": 8.9,
+      "so2": 3.5,
+      "co": 3.0,
+      "o3": 25.6,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:56:12.271903"
+    },
+    {
+      "aqi": 30.0,
+      "pm25": 30.0,
+      "pm10": 16.0,
+      "no2": 8.9,
+      "so2": 3.5,
+      "co": 3.0,
+      "o3": 25.6,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T00:55:56.617977"
+    }
+  ],
+  "Greater Noida": [
+    {
+      "aqi": 50.0,
+      "pm25": 50.0,
+      "pm10": 18.0,
+      "no2": 6.3,
+      "so2": 2.6,
+      "co": 2.9,
+      "o3": 23.7,
+      "temperature": -0.5,
+      "humidity": 32.0,
+      "wind_speed": 1.5,
+      "timestamp": "2026-02-23T00:58:23.632706"
+    },
+    {
+      "aqi": 50.0,
+      "pm25": 50.0,
+      "pm10": 18.0,
+      "no2": 6.3,
+      "so2": 2.6,
+      "co": 2.9,
+      "o3": 23.7,
+      "temperature": -0.5,
+      "humidity": 32.0,
+      "wind_speed": 1.5,
+      "timestamp": "2026-02-23T00:56:34.994877"
+    }
+  ],
+  "Ghaziabad Loni": [
+    {
+      "aqi": 194.0,
+      "pm25": 194.0,
+      "pm10": 189.0,
+      "no2": 38.7,
+      "so2": 14.7,
+      "co": 15.3,
+      "o3": 4.4,
+      "temperature": 31.45,
+      "humidity": 61.0,
+      "wind_speed": 0.3,
+      "timestamp": "2026-02-23T01:15:09.561838"
+    },
+    {
+      "aqi": 194.0,
+      "pm25": 194.0,
+      "pm10": 189.0,
+      "no2": 38.7,
+      "so2": 14.7,
+      "co": 15.3,
+      "o3": 4.4,
+      "temperature": 31.45,
+      "humidity": 61.0,
+      "wind_speed": 0.3,
+      "timestamp": "2026-02-23T01:14:01.960106"
+    },
+    {
+      "aqi": 152.0,
+      "pm25": 152.0,
+      "pm10": 77.0,
+      "no2": 1.0,
+      "so2": 5.2,
+      "co": 7.1,
+      "o3": 9.5,
+      "temperature": 24.0,
+      "humidity": 91.64,
+      "wind_speed": 0.15,
+      "timestamp": "2026-02-23T00:58:15.482851"
+    }
+  ],
+  "ITO, Delhi": [
+    {
+      "aqi": 195.0,
+      "pm25": 195.0,
+      "pm10": 120.0,
+      "no2": 30.7,
+      "so2": 8.9,
+      "co": 0.1,
+      "o3": 8.2,
+      "temperature": 19.0,
+      "humidity": 72.0,
+      "wind_speed": 1.0,
+      "timestamp": "2026-02-23T01:13:37.263753"
+    },
+    {
+      "aqi": 65.0,
+      "pm25": 65.0,
+      "pm10": 20.0,
+      "no2": 3.7,
+      "so2": 3.6,
+      "co": 4.4,
+      "o3": NaN,
+      "temperature": 1.6,
+      "humidity": 100.0,
+      "wind_speed": 1.0,
+      "timestamp": "2026-02-23T01:01:24.771244"
+    }
+  ],
+  "Gurugram Vikas Sadan": [
+    {
+      "aqi": 298.0,
+      "pm25": 227.0,
+      "pm10": 298.0,
+      "no2": 50.1,
+      "so2": 4.4,
+      "co": 11.1,
+      "o3": 29.6,
+      "temperature": 21.0,
+      "humidity": 48.2,
+      "wind_speed": 0.6000000000000001,
+      "timestamp": "2026-02-23T11:36:28.334245"
+    },
+    {
+      "aqi": 27.0,
+      "pm25": 9.0,
+      "pm10": 18.0,
+      "no2": 7.0,
+      "so2": 7.3,
+      "co": 3.8,
+      "o3": 27.3,
+      "temperature": NaN,
+      "humidity": NaN,
+      "wind_speed": NaN,
+      "timestamp": "2026-02-23T01:03:40.273685"
+    }
+  ],
+  "Dwarka Sec 8, Delhi": [
+    {
+      "aqi": 350.0,
+      "pm25": 222.0,
+      "pm10": 350.0,
+      "no2": 33.1,
+      "so2": 6.5,
+      "co": 35.5,
+      "o3": 4.4,
+      "temperature": 14.9,
+      "humidity": 85.7,
+      "wind_speed": 0.2,
+      "timestamp": "2026-02-23T01:29:27.997951"
+    },
+    {
+      "aqi": 350.0,
+      "pm25": 222.0,
+      "pm10": 350.0,
+      "no2": 33.1,
+      "so2": 6.5,
+      "co": 35.5,
+      "o3": 4.4,
+      "temperature": 15.100000000000001,
+      "humidity": 84.9,
+      "wind_speed": 0.25,
+      "timestamp": "2026-02-23T01:13:06.959644"
+    }
+  ],
+  "Ghaziabad Vasundhara": [
+    {
+      "aqi": 501.0,
+      "pm25": 284.0,
+      "pm10": 501.0,
+      "no2": 40.5,
+      "so2": 6.0,
+      "co": 20.6,
+      "o3": 7.9,
+      "temperature": 24.450000000000003,
+      "humidity": 77.5,
+      "wind_speed": 0.85,
+      "timestamp": "2026-02-23T01:20:05.559942"
+    }
+  ],
+  "Mandir Marg, Delhi": [
+    {
+      "aqi": 151.0,
+      "pm25": 151.0,
+      "pm10": 118.0,
+      "no2": 17.7,
+      "so2": 18.0,
+      "co": 14.3,
+      "o3": 2.5,
+      "temperature": 12.2,
+      "humidity": 90.0,
+      "wind_speed": 0.3,
+      "timestamp": "2026-02-23T01:23:49.078063"
+    }
+  ]
+}
