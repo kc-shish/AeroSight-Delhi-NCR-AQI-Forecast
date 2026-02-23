@@ -5,7 +5,7 @@ Here’s a clean, professional **README context section** you can directly paste
 
 ---
 
-## 🌍 AeroSight - NCR AQI Forecast
+# 🌍 AeroSight — Delhi NCR AQI 6-Hour Forecasting System
 
 Delhi’s air quality can change rapidly — and real decisions depend on what it will be, not just what it is now.
 
