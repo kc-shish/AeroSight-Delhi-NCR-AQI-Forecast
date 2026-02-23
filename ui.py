@@ -50,7 +50,7 @@ def fmt(v, d: int = 1):
 def apply_styles():
     """Configure Streamlit page and inject custom dark-theme CSS."""
     st.set_page_config(
-        page_title="🌪️️AeroSight",
+        page_title="AeroSight",
         page_icon="📈",
         layout="wide"
     )
