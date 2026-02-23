@@ -1,6 +1,9 @@
 """
 app.py
 ──────
+Main Streamlit entry point. Thin orchestrator — all logic
+lives in the dedicated modules below.
+
 Project structure:
     app.py          ← you are here (run this)
     config.py       ← paths, station registry, feature list
@@ -17,6 +20,13 @@ Run:
 """
 
 import datetime
+from zoneinfo import ZoneInfo
+
+IST = ZoneInfo("Asia/Kolkata")  # UTC+5:30
+
+def now_ist():
+    """Current time in Indian Standard Time (IST = UTC+5:30)."""
+    return datetime.datetime.now(IST).replace(tzinfo=None)
 import streamlit as st
 
 from config     import STATIONS
@@ -45,7 +55,7 @@ station_name, api_key, fetch_btn = render_sidebar()
 lat, lon, station_int, city_name = STATIONS[station_name]
 
 # ── Main header ────────────────────────────────────────────────────────────
-st.markdown("# 🌍 AeroSight — Delhi NCR AQI Forecast")
+st.markdown("# 🌫️ Delhi NCR — AQI Forecast")
 st.markdown("Live geo-lookup → lag buffer → XGBoost → **next 6-hour AQI prediction**")
 st.markdown("---")
 
@@ -108,7 +118,7 @@ if fetch_btn:
     # 6. Build feature row & predict
     feature_df   = build_feature_row(reading, station_history, lat, lon, station_int, city_name)
     pred          = predict_aqi(model, scaler, cols_to_scale, feature_df)
-    forecast_time = datetime.datetime.now() + datetime.timedelta(hours=6)
+    forecast_time = now_ist() + datetime.timedelta(hours=6)
 
     # 7. Render forecast result
     render_forecast_result(pred, reading, station_name, lat, lon, forecast_time)

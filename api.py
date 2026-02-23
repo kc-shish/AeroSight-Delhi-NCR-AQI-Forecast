@@ -5,7 +5,7 @@ Handles all external data fetching (WAQI API) and
 persistent lag buffer storage (JSON on disk).
 
 Functions:
-  fetch_waqi()     → hits WAQI endpoint, returns live reading
+  fetch_waqi()     → hits WAQI geo-lookup endpoint, returns live reading
   load_lag_store() → loads lag_history.json from disk
   save_lag_store() → writes lag_history.json to disk
   push_reading()   → prepends a new reading and keeps only last 6
@@ -13,9 +13,18 @@ Functions:
 
 import json
 import datetime
+from zoneinfo import ZoneInfo
+
+IST = ZoneInfo("Asia/Kolkata")  # UTC+5:30
+
+def now_ist():
+    """Current time in Indian Standard Time (IST = UTC+5:30)."""
+    return datetime.datetime.now(IST).replace(tzinfo=None)
 import requests
 
 from config import LAG_FILE
+
+# LAG_FILE is resolved in config.py via Path(__file__).resolve().parent
 
 
 # ── WAQI API ───────────────────────────────────────────────────────────────
@@ -30,6 +39,10 @@ def fetch_waqi(lat: float, lon: float, api_key: str):
         (reading_dict, None)  on success
         (None, error_string)  on failure
 
+    reading_dict keys:
+        aqi, pm25, pm10, no2, so2, co, o3,
+        temperature, humidity, wind_speed,
+        timestamp, _api_station (debug only)
     """
     url = f"https://api.waqi.info/feed/geo:{lat};{lon}/?token={api_key}"
     try:
@@ -65,7 +78,7 @@ def fetch_waqi(lat: float, lon: float, api_key: str):
             "temperature":  g("t"),
             "humidity":     g("h"),
             "wind_speed":   g("w"),
-            "timestamp":    datetime.datetime.now().isoformat(),
+            "timestamp":    now_ist().isoformat(),
             "_api_station": d.get("city", {}).get("name", "unknown"),
         }, None
 

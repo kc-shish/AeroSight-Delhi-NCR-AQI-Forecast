@@ -13,11 +13,20 @@ Functions:
 """
 
 import datetime
+from zoneinfo import ZoneInfo
+
+IST = ZoneInfo("Asia/Kolkata")  # UTC+5:30
+
+def now_ist():
+    """Current time in Indian Standard Time (IST = UTC+5:30)."""
+    return datetime.datetime.now(IST).replace(tzinfo=None)
 import numpy as np
 import pandas as pd
 from joblib import load
 
 from config import ARTIFACTS_DIR, FEATURE_COLS
+
+# ARTIFACTS_DIR is resolved in config.py via Path(__file__).resolve().parent
 
 
 # ── Model Loading ──────────────────────────────────────────────────────────
@@ -65,7 +74,12 @@ def season_enc(month: int) -> dict:
 
 
 def dow_enc(dt: datetime.datetime) -> int:
-       return dt.weekday() + 1
+    """
+    Day-of-week encoding matching notebook cell 35:
+    Monday=1, Tuesday=2, ... Sunday=7
+    (Python's weekday() is 0-based, so we add 1)
+    """
+    return dt.weekday() + 1
 
 
 def safe_f(v, default: float = 0.0) -> float:
@@ -100,7 +114,7 @@ def build_feature_row(
         pd.DataFrame with shape (1, len(FEATURE_COLS))
     """
     # Forecast timestamp = now + 6 hours (model predicts next reading)
-    forecast = datetime.datetime.now() + datetime.timedelta(hours=6)
+    forecast = now_ist() + datetime.timedelta(hours=6)
 
     def lag_val(field: str, lag_idx: int) -> float:
         """
