@@ -5,7 +5,7 @@ Here’s a clean, professional **README context section** you can directly paste
 
 ---
 
-# 🌫️ AeroSight — Delhi NCR AQI 6-Hour Forecasting System
+## 🌍 AeroSight - NCR AQI Forecast
 
 Delhi’s air quality can change rapidly — and real decisions depend on what it will be, not just what it is now.
 
@@ -22,7 +22,7 @@ The system operates in two stages:
 ## 1️⃣ Model Training Phase (Offline)
 
 * Historical hourly data (2020–2025)
-* 20,000+ records
+* Trained on 20,000+ records
 * 23 monitoring stations
 * Pollutants: PM2.5, PM10, NO₂, SO₂, CO, O₃
 * Weather + temporal features
