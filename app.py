@@ -55,7 +55,7 @@ station_name, api_key, fetch_btn = render_sidebar()
 lat, lon, station_int, city_name = STATIONS[station_name]
 
 # ── Main header ────────────────────────────────────────────────────────────
-st.markdown("# 🌍 Delhi NCR — AQI Forecast")
+st.markdown("## 🌍 AeroSight - NCR AQI Forecast")
 st.markdown("Live geo-lookup → lag buffer → XGBoost → **next 6-hour AQI prediction**")
 st.markdown("---")
 
