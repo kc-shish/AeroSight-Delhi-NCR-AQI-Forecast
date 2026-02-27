@@ -13,6 +13,9 @@ Delhi’s air quality can change rapidly — and real decisions depend on what i
 
 Unlike typical AQI apps that show current readings, this system forecasts near-future air quality to support smarter daily planning.
 
+### DATASET USED :
+https://www.kaggle.com/datasets/vishardmehta/delhi-pollution-aqi-dataset
+
 ---
 
 # 🚀 How the App Works
