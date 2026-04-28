@@ -11,7 +11,7 @@ Delhi’s air quality can change rapidly — and real decisions depend on what i
 
 **AeroSight** is a Machine Learning–powered AQI forecasting system that predicts **Air Quality Index (AQI) 6 hours ahead (t+6)** using live data from **23 official monitoring stations across 5 NCR cities**.
 
-Unlike typical AQI apps that show current readings, this system forecasts near-future air quality to support smarter daily planning.
+Unlike typical AQI apps that show current readings, this system forecasts near-future air quality to support smarter daily planning .
 
 ### DATASET USED :
 https://www.kaggle.com/datasets/vishardmehta/delhi-pollution-aqi-dataset
